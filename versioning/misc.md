@@ -18,9 +18,9 @@ time sensitive (people know how old the release is)
 
 # Semantic
 
-Major (Incompatible changes)
-Minor (backward compatible feature)
-Patch (backward compatible bugfix)
+* Major (Incompatible changes)
+* Minor (backward compatible feature)
+* Patch (backward compatible bugfix)
 
 You can not re-release the same version.
 
