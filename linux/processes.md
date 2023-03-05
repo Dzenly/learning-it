@@ -25,5 +25,18 @@ task_struct (он же дескриптор процесса)
 У процессов есть куки.
 И два процесса могут юзать один процессор, если их куки совпадают.
 
+===========
 
+https://habr.com/ru/company/southbridge/blog/255845/
+systemd запускает все одновременно, но конфиги поддерживают Before, After.
+Wants, Requires.
+
+
+/usr/lib/systemd/system/ – юниты из установленных пакетов RPM — всякие nginx, apache, mysql и прочее
+/run/systemd/system/ — юниты, созданные в рантайме — тоже, наверное, нужная штука
+/etc/systemd/system/ — юниты, созданные системным администратором — а вот сюда мы и положим свой юнит.
+
+type - simple/forking.
+
+systemd-analyze
 
