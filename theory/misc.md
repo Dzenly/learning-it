@@ -55,14 +55,18 @@ https://habr.com/ru/company/dododev/blog/469999/
 
 =========
 
+# Serf
+
+=========
+
+# Gossip
+
+=========
+
 Blue / Green
 https://www.youtube.com/watch?v=giEJOVmv0ug
 
 A / B тесты
-
-
-
-
 
 
 =======
