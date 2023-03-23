@@ -10,3 +10,31 @@ https://habr.com/ru/post/589415/
 
 # DaemonSet
 Гарантирует что на каждом узле будет экземпляр пода.
+
+
+https://habr.com/ru/company/southbridge/blog/526130/
+
+# Job
+Разовая задача.
+Перезапускается до тех пор, пока не выполнится успешно,
+или пока не истечет таймаут или не сгорят все попытки.
+activeDeadlineSeconds
+backoffLimit (время между попытками увеличивается)
+
+Докер демон тормозит, если много контейнеров - поэтому лучше автоудалять.
+
+# CronJob
+
+Выполнение Job по расписанию.
+
+* startingDeadlineSeconds
+* concurrencyPolicy
+* successfulJobsHistoryLimit
+* failedJobsHistoryLimit
+* concurrencyPolicy
+
+
+
+
+
+
