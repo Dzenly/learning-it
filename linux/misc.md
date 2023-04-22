@@ -35,7 +35,9 @@ Debian11, Ubuntu22.04 - SystemD.
 * Tracing
 * Zombie
 
+======
 
+https://www.youtube.com/watch?v=BeP3XOPJoww&list=PLMiVLClzZDbRv6BiFpkndO41DcTn0ILQE
 
 
 

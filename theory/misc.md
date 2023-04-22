@@ -1,10 +1,12 @@
 https://www.youtube.com/watch?v=Q1kquRGtrKE
 
-# CAP теорема.
+# CAP теорема (Теорема Брюера)
 
 Consistency (согласованность)
 Availability (доступность)
 Partition Tolerance (устойчивость к разделению)
+
+Можно только два из трех свойств выбрать.
 
 =======
 
@@ -18,6 +20,8 @@ AP - DNS
 =======
 
 # ACID
+
+https://www.youtube.com/watch?v=vFmajCQ7Wuc
 
 * Atomicity (транзакция либо вся выполняется, либо вся не выполняется)
 * Consistency
