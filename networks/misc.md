@@ -30,10 +30,6 @@ https://datatracker.ietf.org/doc/html/rfc1122#section-3.2.1.3
 
 Итого 285410560 адресов.
 
-
-
-
-
 https://habr.com/ru/company/ruvds/blog/567156/
 
 https://habr.com/ru/company/southbridge/blog/678428/
