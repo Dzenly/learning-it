@@ -1,14 +1,8 @@
-полученные мониторингом методом черного ящика
-
-
-
 Phased Rollout
 
 Bisection bandwidth — пропускная способность между двумя частями сети. Сечение
 выбирается таким образом, чтобы пропускная способность между частями была мини-
 мальной (https://en.wikipedia.org/wiki/Bisection_bandwidth).
-
-MapReduce
 
 Lustre и Hadoop Distributed File
 System (HDFS)
