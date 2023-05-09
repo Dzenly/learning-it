@@ -23,6 +23,9 @@ template:
           - contaienrPort: 80
 ```
 
+`k delete all --all -A` (удалить вообще все, это как в системе
+запустить `rm -rf /`)
+
 create (создается первый раз) vs apply (применяет изменения)
 
 kubectl get rs (replicasets)
@@ -43,34 +46,55 @@ Deployment - набор полей в spec не отличается от Replic
 
 `k rollout undo`
 
-k rollout history
+`k rollout history`
 
 `k explain deployment.spec.strategy`
+rollingUpdate vs Recreate
 
 ```yaml
 maxSurge: 20%
 maxUnavailable: 20%
 ```
+Можно в штуках, можно в процентах.
+
+====
+
 ====
 
 # namespaces
+
+Чтобы не повторялись имена.
+
+Есть claster wide объекты.
+Storage Class например. PV. Cluster roles.
+
+Политики взаимной видимости.
 
 ====
 
 # Resources
 
-* limits
+* limits - когда убивать или не больши скольки давать.
 * requests - влияет на распределение подов по кластеру.
 
 cpu - 100m milliCPU (одна десятая одного ядра)
 memory: 100Mi
+
+Mi- это точно 1024 * 1024
+
+Capacity пода.
+
+Ты можешь ошибиться и дать поду сильно много.
+Столько ему не надо, но он будет занимать ноду.
 
 ====
 
 # QoS
 * Best Effort
 * Burstable
-*
+* Если указаны конкретные ресурсы - это высший QoS класс.
+
+Если лимиты равны реквестам - хорошо.
 
 ====
 
@@ -78,22 +102,12 @@ memory: 100Mi
 
 ====
 
+k describe
+
 
 
 ====
 
 ====
-
-
-
-
-
-
-
-
-
-
-
-
 
 

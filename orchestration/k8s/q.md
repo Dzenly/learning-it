@@ -1,3 +1,7 @@
+best practices.
+monitoring. `kubectl describe node minikube`
+
+
 Consul.
 
 

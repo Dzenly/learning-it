@@ -153,15 +153,3 @@ https://www.youtube.com/watch?v=XwdCL_YjJMo
 Вообще классная лекция:
 https://www.youtube.com/watch?v=_QQX0Ezpq8U
 
-
-
-
-
-
-
-
-
-
-
-
-
