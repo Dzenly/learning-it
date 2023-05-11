@@ -6,8 +6,6 @@ Uniform Resource Locator
 # URN
 Uniform Resource Name
 
-
-
 # URI
 Uniform Resource Identifier
 

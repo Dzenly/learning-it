@@ -109,7 +109,7 @@ https://en.wikipedia.org/wiki/Isolation_%28database_systems%29#Non-repeatable_re
 ## Read Committed
 Lock-based concurrency control.
 Write is always locked.
-Read is locked until the read finish.
+Read is locked until the write finish.
 Читаешь только если предыдущая транзакция прошла.
 *non-repeatable read* can occur.
 
@@ -245,11 +245,10 @@ Constraints, Cascades, Triggers, Foreign Keys.
 В PG прям можно выбирать изоляции.
 https://tapoueh.org/blog/2018/07/postgresql-concurrency-isolation-and-locking/
 
-
 Двухфазный локинг
 https://en.wikipedia.org/wiki/Two-phase_locking
-1. Expand phase: получаем логи, и не отпускаем.
-2. Shrinking phase: отпускаем логи и не получаем.
+1. Expand phase: получаем локи, и не отпускаем.
+2. Shrinking phase: отпускаем локи и не получаем.
 Есть Shared и Exclusive locks.
 
 Могут быть дедлоки.
