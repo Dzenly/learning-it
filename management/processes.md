@@ -196,14 +196,13 @@ https://www.youtube.com/watch?v=c0CRiCeJ99s&t=2193s&ab_channel=ManagementChannel
 Метрики: сколько замечаний прислали, худший разработчик недели.
 Увеличился ли техдолг после этого МР.
 
-
 ===
 
 https://www.youtube.com/watch?v=TSh7Uz68PeI&t=1905s&ab_channel=ManagementChannel
 
 Мотивация сотрудников
 
-* 
+*
 
 
 ===
