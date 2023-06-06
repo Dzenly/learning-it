@@ -1,4 +1,15 @@
-best practices.
+Виктория - сервис метрик.
+kuber best practices.
+kuber garbage collector
+nftables vs iptables comparison
+еще раз про ингрессы.
+
+
+
+======
+
+
+
 monitoring. `kubectl describe node minikube`
 
 

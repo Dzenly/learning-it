@@ -53,6 +53,60 @@ https://www.youtube.com/watch?v=8ZAIwG2ftrE
 
 ===========
 
+https://dev.to/hmake98/centralized-logging-in-microservices-using-grafana-stack-and-fluent-bit-2pji
+
+fluent-bit - log collector. Fetches logs, filters, sends to data store.
+
+loki - stores logs, adding indexes and metadata.
+
+==
+
+# ELK
+ElasticSearch stores data with indexes.
+Lucene.
+Unstructured JSON data in logstash.
+Kibana - for visualization.
+Обычно занимает много места.
+
+# Loki
+Stores key-value pairs, labels, ?metadata?.
+Занимает поменьше места.
+Но при обильных логах может тратить много времени на обработку.
+Много лейблов, много стримов.
+Типа лучше выбрать ELK.
+
+У графаны есть свой fluent-bit.
+
+https://yuriktech.com/2020/03/21/Collecting-Docker-Logs-With-Loki/
+
+
+`docker plugin install grafana/loki-docker-driver:latest --alias loki --grant-all-permissions`
+
+
+```yml
+logging:
+  driver: loki
+  options:
+    loki-url: "http://host.docker.internal:3100/loki/api/v1/push"
+
+```
+
+```daemon.json
+{
+    "debug" : true,
+    "log-driver": "loki",
+    "log-opts": {
+        "loki-url": "http://host.docker.internal:3100/loki/api/v1/push"
+    }
+}
+```
+
+Login to your Grafana instance and add a new data source of type Loki.
+
+
+
+
+
 
 
 
