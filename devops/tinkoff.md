@@ -13,8 +13,8 @@
 # Общие технические вопросы. Начиная от того как загружается ядро линукс в разных версиях BIOS (Legacy, UEFI) и заканчивая всякими PACELC теоремой и всякими BASE/ASID, версиями HTTP протоколов и т.д.
 Можно пробежаться по всем моим шпорам из этой репозитории. Примерно все эти вопросы могут быть на общем этапе.
 
-https://github.com/mxssl/sre-interview-prep-guide
-https://github.com/Tinkoff/career/blob/main/interview/sections/platform-sre.md
+* https://github.com/mxssl/sre-interview-prep-guide
+* https://github.com/Tinkoff/career/blob/main/interview/sections/platform-sre.md
 
 # Программирование.
 Учишь какой-нибудь golang или python.
@@ -23,13 +23,13 @@ https://github.com/Tinkoff/career/blob/main/interview/sections/platform-sre.md
 Чтобы уверенно решить пару таких задач на час.
 В принципе на мидла хватит и одной задачи за час.
 
-https://github.com/Tinkoff/career/blob/main/interview/sections/programming-basic.md
+* https://github.com/Tinkoff/career/blob/main/interview/sections/programming-basic.md
 
 # Траблшутинг
 
 Все что найдете от Александра Поломодова на ютюбе, касающееся
 SRE, System Design, Troubleshooting.
-https://github.com/Tinkoff/career/blob/main/interview/sections/platform-sre-find-fix-problem.md
+* https://github.com/Tinkoff/career/blob/main/interview/sections/platform-sre-find-fix-problem.md
 
 
 # Фит интервью с одной или более командами на совместимость с ними.
