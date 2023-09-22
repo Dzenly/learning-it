@@ -53,8 +53,8 @@ gct1(){
 }
 
 gdb1(){
-	git branch -D $1
-	git push origin --delete $1
+  git branch -D $1
+  git push origin --delete $1
   git remote prune origin
   git fetch --prune
 }
