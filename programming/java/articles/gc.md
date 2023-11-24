@@ -216,17 +216,9 @@ Eden, S0, S1, Tenure, Permanent.
 Куча разбита на регионы поколений. Регионов не более 2048.
 Группировки по Eden, Survivor, Tenured нет.
 
-
 5. ZGC
 
-
-
-
-
 ==============
-
-
-
 
 https://www.oracle.com/java/technologies/tuning-garbage-collection-v50-java-virtual-machine.html
 
